@@ -1,11 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <!-- DO NOT CHANGE CODE WITHIN THE HEAD ELEMENT -->
   <!-- UNLESS YOU KNOW WHAT YOU"RE DOING-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Sign up</title>
     <!-- add fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,11 +17,67 @@
     <link rel="stylesheet" href="styles/global.css" />
   </head>
   <body>
-    <!-- Header Area -->
     <header></header>
-    <!-- Main Area -->
+
     <main>
-      <h1>My Amazing Portfolio</h1>
+      <section>
+        <h1>sign up form</h1>
+        <form>
+          <fieldset>
+            <legend>Enter your details</legend>
+
+            <label for="firstName"
+              >firstName:
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                autocomplete="cc-given-name"
+                required
+              />
+            </label>
+
+            <label for="lastName"
+              >Last Name:
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                autocomplete="family-name"
+                required
+              />
+            </label>
+
+            <label for="email"
+              >Email:
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                required
+              />
+            </label>
+
+            <label for="age"
+              >age:
+              <input
+                type="number"
+                id="age"
+                name="age"
+                min="0"
+                autocomplete="off"
+                required
+              />
+            </label>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section>
+        <ul id="result-view"></ul>
+      </section>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>
