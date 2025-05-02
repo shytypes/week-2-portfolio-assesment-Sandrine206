@@ -5,4 +5,4 @@ below to ensure proper grading of assessment.
 
 - **Registered Name:** Sandrine Akouvi Ayivor
 - **Student ID:**WTB/2025/4.0/72
-- **Registered email:**tasandraas@gmail.com
+- **Registered email:**sandrinetech@outlook.com
