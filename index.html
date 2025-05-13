@@ -5,7 +5,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio & Sign up</title>
+    <title>Home</title>
     <!-- add fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,35 +16,29 @@
     <!-- local style -->
     <link rel="stylesheet" href="styles/global.css" />
   </head>
-  <!---->
   <body>
-    <header></header>
-
-    <main>
-
-  <section id="header-view-1">
+    <header>
+      <section id="header-view-1">
         <div id="profile-image-container">
           <div><p class="title">SANDRINE AKOUVI AYIVOR</p></div>
           <div>
             <img
-              id=""
-              height="150"
-              width="90"
+              id="Sandrine206/assets/images"
+              height="200"
+              width="100"
               src="assets/images/IMG_20250422_145340_117@265996142.jpg"
-              alt="profile Picture"
+              alt="Sandrine206 profile picture"
             />
           </div>
         </div>
         <div class="body-font" id="bio-spans-container">
           <span class="bio-spans"
-          >Name:Sandrine Akouvi Ayivor</span>
-          <span class="bio-spans"
             >email:
             <a
-              href="https://www.sandrinetech@outlook.com"
+              href="https://www.tasandraas@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              >sandrinetech@outlook.com</a
+              >tasandraas@gmail.com</a
             ></span
           >
           <span class="bio-spans">phone: +233 269341125</span>
@@ -73,18 +67,21 @@
           about IT.<br />
         </p>
       </section>
-    </header>
-    <!-- Main Area -->
-    <main class="body-font">
-      <section id="education-content-span">
+      </header>
+       <!-- Main Area -->
+        <main class="body-font">
+        <section id="education-content-span">
         <p class="education-content-span">Education</p>
-        <hr />Bachelor degree in Finance<br />
-              <ul><li>University of Lome-TOGO</li></ul>
-            
-          
+        <hr />
+        
+        <ul><li>Bachelor degree in Finance</li></ul>
+        <ul><li>University of Lome-TOGO</li></ul>
+        
+        </p></span>
+        
         <ul>
-          <li>I graduated in August 2010.</li>
-          <li>I graduated with a lot of As</li>
+       <li>I graduated in August 2010.</li>
+        <li>I graduated with a lot of As</li>
         </ul>
       </section>
       <section id="experience-section">
@@ -92,18 +89,23 @@
         <hr />
         <div>
           <span class="experience"
-          ></span>
-            <ul><li>I have joy finding solution to critical issues</li></ul>
-          
-          <ul>
+            ><p>
+              <ul><li>University of Lome-TOGO</li></ul> 
+            </span>
+            <ul>
             <li>
               Mathematics is my friend because i use it in my everyday life
             </li>
           </ul>
         </div>
         <div>
-          <span class="experience"></span>
-              <ul><li>Tech4Dev is my breakthrough to achieve my goals.</li></ul>
+          <span class="experience"
+            ><p>
+              <a href="#"> </a>
+              I am very smart and would like to use my knowledge to better our
+              world. Tech4Dev is my breakthrough to achieve my goals.
+            </p></span
+          >
           <ul>
             <li>I am good at managing people,</li>
             <li>
@@ -114,7 +116,7 @@
       </section>
       <section id="hobbies-and-skills-container">
         <div class="hobbies-and-skill-child">
-          <p class="title">Skills</p>
+          <p class="title">Hobbies</p>
           <hr />
           <ul>
             <li>Online learning</li>
@@ -124,7 +126,7 @@
           </ul>
         </div>
         <div class="hobbies-and-skill-child">
-          <p class="title">Hobbies</p>
+          <p class="title">Skills</p>
           <hr />
           <ul>
             <li>Jogging</li>
@@ -133,74 +135,48 @@
           </ul>
         </div>
       </section>
+      <div class="form-section">
+                <h2 class="sign-up">Contact form</h2>
+                
+                <form id="contactForm">
+                  <div class="name-fields">
+                    <div class="input-group">
+                      <label for="firstName">First Name</label>
+                      <input type="text" id="firstName" required />
+                    </div>
+                    <div class="input-group">
+                      <label for="secondName">Second Name</label>
+                      <input type="text" id="secondName" required />
+                    </div>
+                  </div>
+               
+                  <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required />
+                  </div>
+               
+                  <div class="input-group">
+                    <label for="message" class="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                  </div>
+                 
+                  <button class="contact" type="submit">Submit</button>
+                </form>
+               
+             
+                <div id="formDataDisplay" class="display-box">
+                  <!-- Submitted data will appear here -->
+                </div>
+              </div>
 
-      
-      </section>
-      <section>
-        <ul id="result-view"></ul>
-      </section>
-    
-      </section>
+
     </main>
-
-      <section>
-        <h1>sign up form</h1>
-        <form>
-          <fieldset>
-            <legend>Enter your details</legend>
-
-            <label for="FirstName"
-              >FirstName:
-              <input
-                type="text"
-                id="firstName"
-                name="firstName"
-                autocomplete="cc-given-name"
-                required
-              />
-            </label>
-
-            <label for="lastName"
-              >Last Name:
-              <input
-                type="text"
-                id="lastName"
-                name="lastName"
-                autocomplete="family-name"
-                required
-              />
-            </label>
-
-            <label for="email"
-              >Email:
-              <input
-                type="email"
-                id="email"
-                name="email"
-                autocomplete="email"
-                required
-              />
-            </label>
-
-            <label for="Age"
-              >Age:
-              <input
-                type="number"
-                id="Age"
-                name="Age"
-                min="0"
-                autocomplete="off"
-                required
-              />
-            </label>
-          </fieldset>
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-      <section>
-        <ul id="result-view"></ul>
-      </section>
-    </main>
-    <script src="./script.js"></script>
-  </body>
+    </body>
+    <script src="script.js" defer></script>
 </html>
+    
+
+    
+    
+
+  
