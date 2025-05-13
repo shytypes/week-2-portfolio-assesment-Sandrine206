@@ -1,60 +1,62 @@
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  background-color: #f0f0f0;
-}
-
-main {
-  width: 500px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-form {
+header {
+  height: 30vh;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  flex: 3;
+  align-self: center;
+  width: 50vw;
   display: flex;
   flex-direction: column;
 }
-
-fieldset {
-  border: none;
+#header-view-1 {
   display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
+  justify-content: left;
+  align-items: left;
+  font-size: 15px;
+  width: 90%;
 }
 
-legend {
-  align-self: center;
+#header-view-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 50%;
+  align-self: justify;
+  font-size: 15px;
+  color: rgb(12, 11, 11);
 }
 
-label {
-  width: 100%;
-  font-weight: bold;
-  margin-bottom: 5px;
+#bio-spans-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #e4ecee;
+  color: black;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: flex-start;
+  height: fit-content;
+  /*top, right, bottom, left (clockwise)*/
+  padding: 20px 0px 20px 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 14.16px;
+  border-radius: 23.59px;
+  box-shadow: 0 4px 6px 2px rgba(245, 241, 241, 0.973); /* Last value (2px) is the spread */
 }
 
-input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 100%;
-}
-
-button {
-  align-self: center;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 15px;
-  background-color: #4caf50;
+#profile-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  margin-top: 20px;
-  width: 40%;
-  transition: transform 0.2s ease;
+}
+
+.bspacer {
+  margin-bottom: 10px;
+}
+
+#profile-image-container > div {
+  margin-bottom: 3px;
 }

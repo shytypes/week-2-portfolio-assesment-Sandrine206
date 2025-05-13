@@ -5,7 +5,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign up</title>
+    <title>Portfolio & Sign up</title>
     <!-- add fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,18 +16,141 @@
     <!-- local style -->
     <link rel="stylesheet" href="styles/global.css" />
   </head>
+  <!---->
   <body>
     <header></header>
 
     <main>
+
+  <section id="header-view-1">
+        <div id="profile-image-container">
+          <div><p class="title">SANDRINE AKOUVI AYIVOR</p></div>
+          <div>
+            <img
+              id=""
+              height="150"
+              width="90"
+              src="assets/images/IMG_20250422_145340_117@265996142.jpg"
+              alt="profile Picture"
+            />
+          </div>
+        </div>
+        <div class="body-font" id="bio-spans-container">
+          <span class="bio-spans"
+          >Name:Sandrine Akouvi Ayivor</span>
+          <span class="bio-spans"
+            >email:
+            <a
+              href="https://www.sandrinetech@outlook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >sandrinetech@outlook.com</a
+            ></span
+          >
+          <span class="bio-spans">phone: +233 269341125</span>
+          <span class="bio-spans"
+            >LinkedIn:
+            <a
+              href="https://www.linkedin.com/sandrineayivor"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://www.linkedin.com/sandrineaayivor</a
+            ></span
+          >
+        </div>
+      </section>
+      <section id="header-view-2">
+        <p class="body-font">
+          <span class="title">Summary</span><br />
+          I am a tricenarian woman who has lived the past decade of my life to
+          built my family,<br />
+          <br />
+          i use most of my time learning online resources to better my life and
+          prepare me
+          <br />
+          for the job market when my kids grows to some extent.<br />
+          I have a Bs.C in Finance and Management Control and i am passionate
+          about IT.<br />
+        </p>
+      </section>
+    </header>
+    <!-- Main Area -->
+    <main class="body-font">
+      <section id="education-content-span">
+        <p class="education-content-span">Education</p>
+        <hr />Bachelor degree in Finance<br />
+              <ul><li>University of Lome-TOGO</li></ul>
+            
+          
+        <ul>
+          <li>I graduated in August 2010.</li>
+          <li>I graduated with a lot of As</li>
+        </ul>
+      </section>
+      <section id="experience-section">
+        <p class="title">Experience</p>
+        <hr />
+        <div>
+          <span class="experience"
+          ></span>
+            <ul><li>I have joy finding solution to critical issues</li></ul>
+          
+          <ul>
+            <li>
+              Mathematics is my friend because i use it in my everyday life
+            </li>
+          </ul>
+        </div>
+        <div>
+          <span class="experience"></span>
+              <ul><li>Tech4Dev is my breakthrough to achieve my goals.</li></ul>
+          <ul>
+            <li>I am good at managing people,</li>
+            <li>
+              my kids has giving me an honorary degree in human management
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="hobbies-and-skills-container">
+        <div class="hobbies-and-skill-child">
+          <p class="title">Skills</p>
+          <hr />
+          <ul>
+            <li>Online learning</li>
+            <li>Critical thinking</li>
+            <li>Amateur Garments sewing</li>
+            <li>Cooking</li>
+          </ul>
+        </div>
+        <div class="hobbies-and-skill-child">
+          <p class="title">Hobbies</p>
+          <hr />
+          <ul>
+            <li>Jogging</li>
+            <li>Singing and Dancing</li>
+            <li>Watching funny videos</li>
+          </ul>
+        </div>
+      </section>
+
+      
+      </section>
+      <section>
+        <ul id="result-view"></ul>
+      </section>
+    
+      </section>
+    </main>
+
       <section>
         <h1>sign up form</h1>
         <form>
           <fieldset>
             <legend>Enter your details</legend>
 
-            <label for="firstName"
-              >firstName:
+            <label for="FirstName"
+              >FirstName:
               <input
                 type="text"
                 id="firstName"
@@ -59,12 +182,12 @@
               />
             </label>
 
-            <label for="age"
-              >age:
+            <label for="Age"
+              >Age:
               <input
                 type="number"
-                id="age"
-                name="age"
+                id="Age"
+                name="Age"
                 min="0"
                 autocomplete="off"
                 required
